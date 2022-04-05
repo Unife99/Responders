@@ -1,0 +1,20 @@
+
+  "name": "Sqlite",
+  "version": "1.0",
+  "author": "Emiliano Carulli",
+  "url": "https://github.com/Unife99/Responders",
+  "license": "AGPL-V3",
+  "description": "Aggiunge una serie d'informazioni all'interno di un databse sqlite.",
+  "dataTypeList": ["thehive:case_artifact"],
+  "command": "/sqlite.py",
+  "baseConfig": "Sqlite",
+  "configurationItems": [
+    {
+      "name": "monitored_iris_tags",
+      "description": "Monitored Iris tags.",
+      "type": "string",
+      "multi": true,
+      "required": false
+    }
+  ]
+}
